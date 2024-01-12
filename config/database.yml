@@ -16,6 +16,6 @@ test:
 
 production:
   <<: *default
-  database: hello_world_rails_production
+  database: hello_world_rails2_production
   username: hello_world_rails2
-  password: <%= ENV['HELLO_WORLD_RAILS_DATABASE_PASSWORD'] %>
+  password: <%= ENV['HELLO_WORLD_RAILS2_DATABASE_PASSWORD'] %>
